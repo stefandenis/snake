@@ -1,0 +1,136 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F26K42 ]
+[d frameptr 4065 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"49 C:\Users\m51763\MPLABXProjects\dgfdr.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"50 C:\Users\m51763\MPLABXProjects\dgfdr.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"57
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"71
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\m51763\MPLABXProjects\dgfdr.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"4686 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f26k42.h
+[v _PMD0 PMD0 `VEuc  1 e 1 @14784 ]
+"4763
+[v _PMD1 PMD1 `VEuc  1 e 1 @14785 ]
+"4833
+[v _PMD2 PMD2 `VEuc  1 e 1 @14786 ]
+"4878
+[v _PMD3 PMD3 `VEuc  1 e 1 @14787 ]
+"4940
+[v _PMD4 PMD4 `VEuc  1 e 1 @14788 ]
+"4973
+[v _PMD5 PMD5 `VEuc  1 e 1 @14789 ]
+"5018
+[v _PMD6 PMD6 `VEuc  1 e 1 @14790 ]
+"5068
+[v _PMD7 PMD7 `VEuc  1 e 1 @14791 ]
+"5207
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @14809 ]
+"5347
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @14811 ]
+"5499
+[v _OSCEN OSCEN `VEuc  1 e 1 @14813 ]
+"5550
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @14814 ]
+"5654
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @14815 ]
+"7716
+[v _ANSELA ANSELA `VEuc  1 e 1 @14912 ]
+"7778
+[v _WPUA WPUA `VEuc  1 e 1 @14913 ]
+"7840
+[v _ODCONA ODCONA `VEuc  1 e 1 @14914 ]
+"7902
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @14915 ]
+"8336
+[v _ANSELB ANSELB `VEuc  1 e 1 @14928 ]
+"8398
+[v _WPUB WPUB `VEuc  1 e 1 @14929 ]
+"8460
+[v _ODCONB ODCONB `VEuc  1 e 1 @14930 ]
+"8522
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @14931 ]
+"8956
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @14938 ]
+"9064
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @14939 ]
+"9172
+[v _ANSELC ANSELC `VEuc  1 e 1 @14944 ]
+"9234
+[v _WPUC WPUC `VEuc  1 e 1 @14945 ]
+"9296
+[v _ODCONC ODCONC `VEuc  1 e 1 @14946 ]
+"9358
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @14947 ]
+"9792
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @14954 ]
+"9900
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @14955 ]
+"10008
+[v _WPUE WPUE `VEuc  1 e 1 @14977 ]
+"44246
+[v _LATA LATA `VEuc  1 e 1 @16314 ]
+"44358
+[v _LATB LATB `VEuc  1 e 1 @16315 ]
+"44470
+[v _LATC LATC `VEuc  1 e 1 @16316 ]
+"44582
+[v _TRISA TRISA `VEuc  1 e 1 @16322 ]
+"44644
+[v _TRISB TRISB `VEuc  1 e 1 @16323 ]
+"44706
+[v _TRISC TRISC `VEuc  1 e 1 @16324 ]
+"49 C:\Users\m51763\MPLABXProjects\dgfdr.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"68
+} 0
+"50 C:\Users\m51763\MPLABXProjects\dgfdr.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"71
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"89
+} 0
+"55 C:\Users\m51763\MPLABXProjects\dgfdr.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"114
+} 0
+"57 C:\Users\m51763\MPLABXProjects\dgfdr.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
